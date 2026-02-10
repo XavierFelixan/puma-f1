@@ -3,7 +3,6 @@ import io
 import time
 import requests
 from flask import Flask, jsonify, render_template, request
-from openpyxl import load_workbook
 
 app = Flask(__name__)
 
