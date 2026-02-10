@@ -14,7 +14,7 @@ url = f"https://filebin.net/s5al02jenmz68f5l/{file_name}"
 def home():  
     return render_template("home.html")
 
-@app.route("/generate_report", methods=["POST"])
+@app.route("/report/upcoming-race", methods=["POST"])
 def generate_report():
     next_race = get_next_race()
     
